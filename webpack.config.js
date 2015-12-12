@@ -6,8 +6,7 @@ var webpack = require('webpack');
 module.exports = {
     devtool: 'cheap-module-eval-source-map',
     entry: {
-        login: ['webpack-hot-middleware/client', './src/containers/Login'],
-        index: ['webpack-hot-middleware/client', './src/containers/Index']
+        index: ['webpack-hot-middleware/client', './index']
     },
     output: {
         path: path.join(__dirname, 'src', 'dist'),
