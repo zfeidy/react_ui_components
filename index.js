@@ -1,21 +1,12 @@
+/* global exports, require */
 'use strict';
 
 import WcTable from './lib/JingTable';
-import WcTooltip from "./lib/JingTooltip";
-import AutoComplete from "./lib/JingAutoComplete";
-import JingInfoTable from "./lib/JingInfoTable";
-import SmartInput from "./lib/JingSmartInput";
-import DynKVInput from "./lib/JingDynKVInput";
-import { CheckBoxGroup, RadioGroup, Selector, ButtonList, SplitLine } from './components/JingInput';
+import WcTooltip from './lib/JingTooltip';
+import AutoComplete from './lib/JingAutoComplete';
+import InfoTable from './lib/JingInfoTable';
+import SmartInput from './lib/JingSmartInput';
+import DynKVInput from './lib/JingDynKVInput';
+import { CheckBoxGroup, RadioGroup, Selector, ButtonList, SplitLine } from './lib/JingInput';
 
-exports.WcTable = WcTable;
-exports.WcTooltip = WcTooltip;
-exports.AutoComplete = AutoComplete;
-exports.JingInfoTable = JingInfoTable;
-exports.SmartInput = SmartInput;
-exports.DynKVInput = DynKVInput;
-exports.SplitLine = CheckBoxGroup;
-exports.RadioGroup = RadioGroup;
-exports.Selector = Selector;
-exports.ButtonList = ButtonList;
-exports.SplitLine = SplitLine;
+export { WcTable, WcTooltip, AutoComplete, InfoTable, SmartInput, DynKVInput, CheckBoxGroup, RadioGroup, Selector, ButtonList, SplitLine };
