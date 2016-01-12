@@ -6,7 +6,7 @@
   "author": "Jing Mirror<zfeidy@qq.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/zfeidy/jing_react_components.git"
+    "url": "https://github.com/zfeidy/react_ui_components"
   },
   "scripts": {
     "build": "webpack index.js",
