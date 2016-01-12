@@ -1,8 +1,8 @@
 {
   "name": "jing_react_components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "React Components",
-  "main": "./lib/ndex.js",
+  "main": "./lib/index.js",
   "author": "Jing Mirror<zfeidy@qq.com>",
   "repository": {
     "type": "git",
